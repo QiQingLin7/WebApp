@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个工程</title>
+</head>
+<script type="text/javascript" src="/js/query-3.3.1.js"></script>
+<script type="text/javascript" src="/js/login.js"></script>
+<body>
+<center>
+    <table>
+        <tr>
+            <td>
+                账号:<input type="text" name="name" title="用户名"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                密码:<input type="password" name="password" title="密码"/>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="登录" onclick="login()"></td>
+        </tr>
+        <!--<input name="name" type="text">-->
+        <!--<input name="password" type="password">-->
+        <!--<input type="button" value="登录" onclick="login()">-->
+    </table>
+</center>
+</body>
+</html>
