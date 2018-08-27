@@ -1,1 +1,1 @@
-web: java -jar target/webapp.1.0.jar
+web: java -jar target/xiaoqi.1.0.jar
