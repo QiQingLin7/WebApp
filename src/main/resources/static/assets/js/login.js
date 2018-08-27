@@ -14,7 +14,7 @@ function login() {
         success: function (data) {
             if (data) {
                 alert("登录成功");
-                alert("登录成功就很NB了？");
+                alert("然而什么也没有 开心吧");
             } else {
                 alert("登录失败");
                 alert("不要放弃这个密码不难的,多试试");
