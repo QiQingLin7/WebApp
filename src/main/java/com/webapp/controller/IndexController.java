@@ -14,4 +14,9 @@ public class IndexController {
     public String Nice() {
         return "nice";
     }
+
+    @GetMapping("/up")
+    public String upload() {
+        return "FileUpload";
+    }
 }
