@@ -6,14 +6,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class WebAppApplication extends SpringBootServletInitializer {
-
+public class WebAppApplication {
     public static void main(String[] args) {
         SpringApplication.run(WebAppApplication.class, args);
-    }
-
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder;
     }
 
 }
