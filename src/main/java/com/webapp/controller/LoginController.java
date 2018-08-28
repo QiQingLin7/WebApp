@@ -31,13 +31,8 @@ public class LoginController {
     }
 
     @GetMapping("add")
-    public String Add(@RequestBody @Valid User user, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            for (FieldError fieldError : bindingResult.getFieldErrors()) {
-                System.out.println(fieldError.getDefaultMessage());
-                return "error";
-            }
-        }
+    public String Add(User user, BindingResult bindingResult) {
+
         return "success";
     }
 }
