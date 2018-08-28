@@ -9,7 +9,7 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     username: root
-    password: 0928
+    password: '0928'
     hikari:
       maximum-pool-size: 15
       minimum-idle: 5
