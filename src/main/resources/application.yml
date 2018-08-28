@@ -2,8 +2,6 @@ server:
   port: 5000
   error:
     path: /error
-  servlet:
-    path: /
 spring:
   thymeleaf:
     cache: false
@@ -30,7 +28,3 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   type-aliases-package: com.webapp.entity
-#server.port=${PORT:5000}
-#spring.thymeleaf.mode=HTML
-#logging.level.org.springframework=INFO
-#spring.profiles.active=production
