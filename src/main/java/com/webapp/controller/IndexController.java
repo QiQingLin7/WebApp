@@ -9,4 +9,9 @@ public class IndexController {
     public String Index() {
         return "index";
     }
+
+    @GetMapping("/nice")
+    public String Nice() {
+        return "nice";
+    }
 }
